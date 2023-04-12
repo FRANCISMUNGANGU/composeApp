@@ -33,17 +33,18 @@ MainActivity : ComponentActivity() {
 //                Card()
 //            }
 //        }
-                Column {
-                    TopAppBar(title = {
-                        Text("My recipes")
-                    })
-                    RecipeList(recipes = defaultrecipes)
-                    }
+            Column {
+                TopAppBar(title = {
+                    Text("My recipes")
+                })
+                RecipeList(recipes = defaultrecipes)
+
+            }
         }
+    }
         //    @Preview allow quick look at things
         @Preview
         @Composable
-//inside you can define function
         fun Greeting() {
 //    unit composable called column
             Column {
@@ -94,5 +95,5 @@ MainActivity : ComponentActivity() {
         }
 
     }
-}
+
 
